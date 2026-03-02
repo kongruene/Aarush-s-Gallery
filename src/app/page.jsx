@@ -50,30 +50,11 @@ const CENTERS = [
 // ── ADD YOUR PHOTOS HERE ──────────────────────────────────────────────────────
 // Format: { src: '/images/<center>/<filename>', caption: 'optional caption' }
 const PHOTOS = {
-  lgbtq: [
-    { src: '/images/lgbtq/lgbtq-1.jpg', caption: 'LGBTQ Center — Room G988, Hicks Undergraduate Library' },
-    { src: '/images/lgbtq/lgbtq-2.jpg', caption: 'LGBTQ Center' },
-    { src: '/images/lgbtq/lgbtq-3.jpg', caption: 'Message Board — Hicks Library' },
-    { src: '/images/lgbtq/lgbtq-4.jpg', caption: 'Message Board up close' },
-    { src: '/images/lgbtq/lgbtq-5.jpg', caption: 'Inside Hicks Library' },
-    { src: '/images/lgbtq/lgbtq-6.jpg', caption: 'LGBTQ Center visit' },
-  ],
-  bcc: [
-    { src: '/images/bcc/bcc-1.jpg', caption: 'Black History Month 2026 — Celebrating 100 Years of Black History Commemorations' },
-    { src: '/images/bcc/bcc-2.jpg', caption: 'A Journey Through Black Excellence — The BCC: A 50 Year Retrospective' },
-    { src: '/images/bcc/bcc-3.jpg', caption: 'Antonio & Betty Zamora Performing Arts Studio' },
-    { src: '/images/bcc/bcc-4.jpg', caption: 'Inside the Black Cultural Center' },
-  ],
-  aaarcc: [
-    { src: '/images/aaarcc/aaarcc-1.jpg', caption: 'AAARCC — converted house with lounge · 915 5th Street' },
-  ],
-  lcc: [
-    { src: '/images/lcc/lcc-1.jpg', caption: 'Latino Cultural Center — 426 Waldron Street' },
-  ],
-  naecc: [
-    { src: '/images/naecc/naecc-1.jpg', caption: 'NAECC lounge — 903 5th Street · 65+ tribal nations' },
-    { src: '/images/naecc/naecc-2.jpg', caption: 'NAECC — brick fireplace lounge' },
-  ],
+  lgbtq: [],
+  bcc: [],
+  aaarcc: [],
+  lcc: [],
+  naecc: [],
 }
 
 export default function Home() {
