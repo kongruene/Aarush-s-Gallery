@@ -25,6 +25,13 @@ const CENTERS = [
     description: 'Room G988, Hicks Undergraduate Library',
   },
   {
+    id: 'aaarcc',
+    name: 'AAARCC',
+    color: 'bg-red-900',
+    accent: 'border-red-400',
+    description: 'Asian American & Asian Resource and Cultural Center · 915 5th St',
+  },
+  {
     id: 'lcc',
     name: 'Latino Cultural Center',
     color: 'bg-green-900',
@@ -56,6 +63,15 @@ const PHOTOS = {
     { src: '/images/lgbtq/lgbtq-4.jpg', caption: 'Selfie at the LGBTQ Center bookshelf' },
     { src: '/images/lgbtq/lgbtq-5.jpg', caption: '1993 March on Washington — Keith Haring poster' },
     { src: '/images/lgbtq/lgbtq-6.jpg', caption: 'LGBTQ Center kitchen — pride flag magnets & community notices' },
+  ],
+  aaarcc: [
+    { src: '/images/aaarcc/aaarcc-1.jpg', caption: 'AAARCC main lounge — colorful prayer flags & community space' },
+    { src: '/images/aaarcc/aaarcc-2.jpg', caption: 'AAARCC library — Asian American literature collection' },
+    { src: '/images/aaarcc/aaarcc-3.jpg', caption: 'AAARCC Library Catalog — 10th Anniversary' },
+    { src: '/images/aaarcc/aaarcc-4.jpg', caption: 'AAARCC meeting room — fortune cookies & cultural art' },
+    { src: '/images/aaarcc/aaarcc-5.jpg', caption: 'AAARCC lounge — Korean snacks & library catalog display' },
+    { src: '/images/aaarcc/aaarcc-6.jpg', caption: 'Aarush at AAARCC — red Chinese lantern selfie' },
+    { src: '/images/aaarcc/aaarcc-7.jpg', caption: 'AAARCC — teal floral mural & computer station' },
   ],
   lcc: [
     { src: '/images/lcc/lcc-1.jpg', caption: 'Latino Cultural Center — colorful teal & yellow exterior' },
