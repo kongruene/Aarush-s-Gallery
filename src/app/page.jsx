@@ -25,6 +25,13 @@ const CENTERS = [
     description: 'Room G988, Hicks Undergraduate Library',
   },
   {
+    id: 'lcc',
+    name: 'Latino Cultural Center',
+    color: 'bg-green-900',
+    accent: 'border-green-400',
+    description: 'Todos son bienvenidos · 426 Waldron St',
+  },
+  {
     id: 'naecc',
     name: 'NAECC',
     color: 'bg-orange-900',
@@ -49,6 +56,16 @@ const PHOTOS = {
     { src: '/images/lgbtq/lgbtq-4.jpg', caption: 'Selfie at the LGBTQ Center bookshelf' },
     { src: '/images/lgbtq/lgbtq-5.jpg', caption: '1993 March on Washington — Keith Haring poster' },
     { src: '/images/lgbtq/lgbtq-6.jpg', caption: 'LGBTQ Center kitchen — pride flag magnets & community notices' },
+  ],
+  lcc: [
+    { src: '/images/lcc/lcc-1.jpg', caption: 'Latino Cultural Center — colorful teal & yellow exterior' },
+    { src: '/images/lcc/lcc-2.jpg', caption: 'LCC library — Latin America collection' },
+    { src: '/images/lcc/lcc-3.jpg', caption: 'LCC bookshelf — "I am Loved, Beautiful, Smart, Powerful"' },
+    { src: '/images/lcc/lcc-4.jpg', caption: 'LCC community heart mural — unity & solidarity' },
+    { src: '/images/lcc/lcc-5.jpg', caption: 'LCC staircase — community photo wall' },
+    { src: '/images/lcc/lcc-6.jpg', caption: 'LCC cozy reading nook upstairs' },
+    { src: '/images/lcc/lcc-7.jpg', caption: 'Aarush at LCC — heart mural selfie' },
+    { src: '/images/lcc/lcc-8.jpg', caption: 'Aarush at LCC — upstairs computer lab' },
   ],
   naecc: [
     { src: '/images/naecc/naecc-1.jpg', caption: 'NAECC entrance sign — "Stop by for a FREE Popsicle"' },
