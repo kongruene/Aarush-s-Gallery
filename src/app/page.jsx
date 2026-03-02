@@ -24,10 +24,16 @@ const CENTERS = [
     accent: 'border-violet-400',
     description: 'Room G988, Hicks Undergraduate Library',
   },
+  {
+    id: 'naecc',
+    name: 'NAECC',
+    color: 'bg-orange-900',
+    accent: 'border-orange-400',
+    description: 'Native American Educational & Cultural Center · 903 5th St · Since 2007',
+  },
 ]
 
 // ── ADD YOUR PHOTOS HERE ──────────────────────────────────────────────────────
-// Format: { src: '/images/<center>/<filename>', caption: 'optional caption' }
 const PHOTOS = {
   bcc: [
     { src: '/images/bcc/bcc-1.jpg', caption: 'Black Cultural Center — selfie with BCC banner' },
@@ -43,6 +49,17 @@ const PHOTOS = {
     { src: '/images/lgbtq/lgbtq-4.jpg', caption: 'Selfie at the LGBTQ Center bookshelf' },
     { src: '/images/lgbtq/lgbtq-5.jpg', caption: '1993 March on Washington — Keith Haring poster' },
     { src: '/images/lgbtq/lgbtq-6.jpg', caption: 'LGBTQ Center kitchen — pride flag magnets & community notices' },
+  ],
+  naecc: [
+    { src: '/images/naecc/naecc-1.jpg', caption: 'NAECC entrance sign — "Stop by for a FREE Popsicle"' },
+    { src: '/images/naecc/naecc-2.jpg', caption: 'NAECC main lounge — traditional regalia & medicine wheel' },
+    { src: '/images/naecc/naecc-3.jpg', caption: 'Aarush at NAECC — traditional regalia on display' },
+    { src: '/images/naecc/naecc-4.jpg', caption: 'NAECC — birchbark canoe display' },
+    { src: '/images/naecc/naecc-5.jpg', caption: 'NAECC kitchen & community resources' },
+    { src: '/images/naecc/naecc-6.jpg', caption: 'NAECC — "I am a Native" Sitting Bull portrait' },
+    { src: '/images/naecc/naecc-7.jpg', caption: 'Aarush in the NAECC green room' },
+    { src: '/images/naecc/naecc-8.jpg', caption: 'NAECC hallway — Sitting Bull portrait at the end' },
+    { src: '/images/naecc/naecc-9.jpg', caption: 'NAECC sewing room — "No More Stolen Sisters" #MMIWG display' },
   ],
 }
 
@@ -95,7 +112,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Active center description */}
         {activeCenter && activeCenter.id !== 'all' && (
           <p className="mt-4 text-neutral-500 text-sm">
             {activeCenter.description}
